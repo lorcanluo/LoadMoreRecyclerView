@@ -43,7 +43,7 @@ public class ALoadMoreRecyclerView extends RecyclerView {
       if (totalItemCount <= lastVisibleItemPosition + 1) {
         if (!isLoading
             && onLoadMoreListener != null
-            && ((AbstractLoadMoreAdapter) getAdapter()).isHasMore()) {
+            && ((ALoadMoreAdapter) getAdapter()).isHasMore()) {
           isLoading = true;
           onLoadMoreListener.onLoadMore();
         }

@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.lorcanluo.loadmorerecyclerview.ALoadMoreRecyclerView;
-import com.lorcanluo.loadmorerecyclerview.AbstractLoadMoreAdapter;
+import com.lorcanluo.loadmorerecyclerview.ALoadMoreAdapter;
 import java.lang.ref.WeakReference;
 
 public class MainActivity extends AppCompatActivity {
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     return true;
   }
 
-  private class MyTestAdapter extends AbstractLoadMoreAdapter {
+  private class MyTestAdapter extends ALoadMoreAdapter {
     private int[] colors =
         { Color.BLACK, Color.BLUE, Color.GREEN, Color.RED, Color.YELLOW, Color.CYAN, Color.DKGRAY };
     private int item;
