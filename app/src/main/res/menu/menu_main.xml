@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lorcanluo.loadmore.demo.MainActivity">
+  <item
+      android:id="@+id/action_add"
+      android:orderInCategory="100"
+      android:title="添加数据"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/action_no_more"
+      android:orderInCategory="102"
+      android:title="没有更多"
+      app:showAsAction="never"/>
+</menu>

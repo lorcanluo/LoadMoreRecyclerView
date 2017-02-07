@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">LoadMoreRecyclerView</string>
+  <string name="loading_message">正在加载…</string>
+  <string name="no_more">没有更多数据~</string>
+</resources>
